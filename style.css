@@ -6,13 +6,21 @@ nav {
   font-size: 25px;
   display: flex;
   flex-direction: row;
-  
+  margin: 0;
+  margin-left: 0;
+  padding: 0;
+  justify-content: center;
+
 }
 
 body {
-  width: 100%;
+  width: 80%;
   height: 100%;
   background-color: tan;
+  padding: 0;
+  margin: auto;
+
+  
 }
 
 #Logo {
@@ -31,8 +39,9 @@ body {
   background-color: black;
 
 }
+
 ul {
-  border: 1px blue solid;
+  
   display: flex;
   width: 1000px;
   flex-direction: row;
@@ -46,20 +55,75 @@ ul {
   height: 450px;
   background-color: black;
   color: grey;
-  border: 1px red solid;
   margin: 60px;
   padding: 30px;
 
 
 }
 
-ul {
-  border: 1px blue solid;
+.cardHolder {
   display: flex;
-  width: 1000px;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+
+.card {
+  width: 300px;
+  height: 375px;
+  background-color: black;
+  margin: 35px;
+  padding: 0;
+}
+
+p {
+
+  color: black;
+}
+
+.bottomPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
 }
- 
+
+.bottomPic {
+  height: 480px;
+  width: 400px;
+  background-color: black;
+  margin: 35px;
+  padding: 0;
+
+}
+
+.bottomWriting {
+  height: 480px;
+  width: 400px;
+  
+}
+
+
+
+.button {
+  height: 20px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+height: 100px;
+width: 100vw;
+background-color: grey;
+}
+
 
